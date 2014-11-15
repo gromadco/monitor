@@ -1,0 +1,158 @@
+[
+  {
+    "data": [
+      {
+        "closed_at": null, 
+        "closed_issues": 14, 
+        "created_at": "2014-09-20T07:37:06Z", 
+        "creator": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/2575555?v=3", 
+          "events_url": "https://api.github.com/users/serejahh/events{/privacy}", 
+          "followers_url": "https://api.github.com/users/serejahh/followers", 
+          "following_url": "https://api.github.com/users/serejahh/following{/other_user}", 
+          "gists_url": "https://api.github.com/users/serejahh/gists{/gist_id}", 
+          "gravatar_id": "", 
+          "html_url": "https://github.com/serejahh", 
+          "id": 2575555, 
+          "login": "serejahh", 
+          "organizations_url": "https://api.github.com/users/serejahh/orgs", 
+          "received_events_url": "https://api.github.com/users/serejahh/received_events", 
+          "repos_url": "https://api.github.com/users/serejahh/repos", 
+          "site_admin": false, 
+          "starred_url": "https://api.github.com/users/serejahh/starred{/owner}{/repo}", 
+          "subscriptions_url": "https://api.github.com/users/serejahh/subscriptions", 
+          "type": "User", 
+          "url": "https://api.github.com/users/serejahh"
+        }, 
+        "description": "Goal: make the app available for beta testing, the app must be releasable after this version, we will not release to go through one cycle of testing.\r\n\r\nhttps://docs.google.com/document/d/1yWpcV-og66A6dv3M2QlmV23iqmLdyGxR8zalU3bRaAc/edit#", 
+        "due_on": null, 
+        "id": 796578, 
+        "labels_url": "https://api.github.com/repos/gromadco/Talking-Companion-iOS/milestones/3/labels", 
+        "number": 3, 
+        "open_issues": 5, 
+        "state": "open", 
+        "title": "0.3 Improvements after alpha testers", 
+        "updated_at": "2014-11-13T18:31:48Z", 
+        "url": "https://api.github.com/repos/gromadco/Talking-Companion-iOS/milestones/3"
+      }
+    ], 
+    "project": "gromadco/Talking-Companion-iOS"
+  }, 
+  {
+    "data": [
+      {
+        "closed_at": null, 
+        "closed_issues": 0, 
+        "created_at": "2014-06-16T10:13:29Z", 
+        "creator": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/123531?v=3", 
+          "events_url": "https://api.github.com/users/dudarev/events{/privacy}", 
+          "followers_url": "https://api.github.com/users/dudarev/followers", 
+          "following_url": "https://api.github.com/users/dudarev/following{/other_user}", 
+          "gists_url": "https://api.github.com/users/dudarev/gists{/gist_id}", 
+          "gravatar_id": "", 
+          "html_url": "https://github.com/dudarev", 
+          "id": 123531, 
+          "login": "dudarev", 
+          "organizations_url": "https://api.github.com/users/dudarev/orgs", 
+          "received_events_url": "https://api.github.com/users/dudarev/received_events", 
+          "repos_url": "https://api.github.com/users/dudarev/repos", 
+          "site_admin": false, 
+          "starred_url": "https://api.github.com/users/dudarev/starred{/owner}{/repo}", 
+          "subscriptions_url": "https://api.github.com/users/dudarev/subscriptions", 
+          "type": "User", 
+          "url": "https://api.github.com/users/dudarev"
+        }, 
+        "description": "", 
+        "due_on": null, 
+        "id": 692064, 
+        "labels_url": "https://api.github.com/repos/dudarev/photoplanet/milestones/1/labels", 
+        "number": 1, 
+        "open_issues": 4, 
+        "state": "open", 
+        "title": "Deploy one site on digitalocean", 
+        "updated_at": "2014-06-16T10:42:33Z", 
+        "url": "https://api.github.com/repos/dudarev/photoplanet/milestones/1"
+      }
+    ], 
+    "project": "dudarev/photoplanet"
+  }, 
+  {
+    "data": [
+      {
+        "closed_at": null, 
+        "closed_issues": 1, 
+        "created_at": "2014-10-19T10:24:10Z", 
+        "creator": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/123531?v=3", 
+          "events_url": "https://api.github.com/users/dudarev/events{/privacy}", 
+          "followers_url": "https://api.github.com/users/dudarev/followers", 
+          "following_url": "https://api.github.com/users/dudarev/following{/other_user}", 
+          "gists_url": "https://api.github.com/users/dudarev/gists{/gist_id}", 
+          "gravatar_id": "", 
+          "html_url": "https://github.com/dudarev", 
+          "id": 123531, 
+          "login": "dudarev", 
+          "organizations_url": "https://api.github.com/users/dudarev/orgs", 
+          "received_events_url": "https://api.github.com/users/dudarev/received_events", 
+          "repos_url": "https://api.github.com/users/dudarev/repos", 
+          "site_admin": false, 
+          "starred_url": "https://api.github.com/users/dudarev/starred{/owner}{/repo}", 
+          "subscriptions_url": "https://api.github.com/users/dudarev/subscriptions", 
+          "type": "User", 
+          "url": "https://api.github.com/users/dudarev"
+        }, 
+        "description": "", 
+        "due_on": null, 
+        "id": 831647, 
+        "labels_url": "https://api.github.com/repos/dudarev/mapjumper/milestones/4/labels", 
+        "number": 4, 
+        "open_issues": 5, 
+        "state": "open", 
+        "title": "0.6 New features", 
+        "updated_at": "2014-10-29T19:06:37Z", 
+        "url": "https://api.github.com/repos/dudarev/mapjumper/milestones/4"
+      }
+    ], 
+    "project": "dudarev/mapjumper"
+  }, 
+  {
+    "data": [
+      {
+        "closed_at": null, 
+        "closed_issues": 0, 
+        "created_at": "2014-11-09T19:52:04Z", 
+        "creator": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/123531?v=3", 
+          "events_url": "https://api.github.com/users/dudarev/events{/privacy}", 
+          "followers_url": "https://api.github.com/users/dudarev/followers", 
+          "following_url": "https://api.github.com/users/dudarev/following{/other_user}", 
+          "gists_url": "https://api.github.com/users/dudarev/gists{/gist_id}", 
+          "gravatar_id": "", 
+          "html_url": "https://github.com/dudarev", 
+          "id": 123531, 
+          "login": "dudarev", 
+          "organizations_url": "https://api.github.com/users/dudarev/orgs", 
+          "received_events_url": "https://api.github.com/users/dudarev/received_events", 
+          "repos_url": "https://api.github.com/users/dudarev/repos", 
+          "site_admin": false, 
+          "starred_url": "https://api.github.com/users/dudarev/starred{/owner}{/repo}", 
+          "subscriptions_url": "https://api.github.com/users/dudarev/subscriptions", 
+          "type": "User", 
+          "url": "https://api.github.com/users/dudarev"
+        }, 
+        "description": "Have a simple website with links to at least 20 web sites. Some initial simple design. Websites are sorted alphabetically. A search field to filter web site names.", 
+        "due_on": null, 
+        "id": 859266, 
+        "labels_url": "https://api.github.com/repos/gromadco/change-password-links/milestones/1/labels", 
+        "number": 1, 
+        "open_issues": 2, 
+        "state": "open", 
+        "title": "Initial Implementation", 
+        "updated_at": "2014-11-09T20:03:57Z", 
+        "url": "https://api.github.com/repos/gromadco/change-password-links/milestones/1"
+      }
+    ], 
+    "project": "gromadco/change-password-links"
+  }
+]
