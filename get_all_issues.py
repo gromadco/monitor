@@ -36,15 +36,16 @@ with open(INPUT_FILE) as f:
 
 for m in milestones:
     user, repo = m['project'].split('/')
-    milestone = m['data'][0]['number']
-    print user, repo, milestone
-    url = ISSUES_TEMPLATE.format(
-        base_url=GITHUB_API_BASE_URL,
-        user=user,
-        repo=repo,
-        milestone=milestone)
-    response = requests.get(url)
-    m['issues'] = json.loads(response.content)
+    m['issues'] = []
+    for milestone in m['data']:
+        print user, repo, milestone['number']
+        url = ISSUES_TEMPLATE.format(
+            base_url=GITHUB_API_BASE_URL,
+            user=user,
+            repo=repo,
+            milestone=milestone['number'])
+        response = requests.get(url)
+        m['issues'].extend(json.loads(response.content))
 
 filename = get_data_filename()
 with open(filename, 'w') as f:

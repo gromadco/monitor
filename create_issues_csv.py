@@ -23,7 +23,7 @@ def count_active_milestones(date):
     return db.data.aggregate(pipeline)['result'][0]['count']
 
 
-def count_issues(date, project, state=None):
+def count_issues(date, project, state=None, max_dates_back=10):
     """
     Counts number of issues with a given state
     for a given project on a given date
@@ -45,7 +45,11 @@ def count_issues(date, project, state=None):
     try:
         return db.data.aggregate(pipeline)['result'][0]['count']
     except IndexError:
-        return 0
+        if max_dates_back > 0:
+            return count_issues(
+                date - datetime.timedelta(1), project, state, max_dates_back=max_dates_back - 1)
+        else:
+            return 0
 
 
 def count_closed_delta(date, project):
@@ -80,7 +84,6 @@ print count_issues(datetime.datetime(2014, 11, 25), milestones[0]['project'], 'c
 print count_closed_delta(datetime.datetime(2014, 11, 25), milestones[0]['project'])
 
 
-
 projects = [m['project'] for m in milestones]
 
 with open('data/issues_closed.csv', 'w') as f:
@@ -96,4 +99,4 @@ with open('data/issues_closed.csv', 'w') as f:
         for p in projects:
             print p
             closed_delta.append(count_closed_delta(date, p))
-        csv_writer.writerow([date] + closed_delta)
+        csv_writer.writerow([date.strftime("%Y-%m-%d")] + closed_delta)
