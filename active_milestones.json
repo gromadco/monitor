@@ -34,6 +34,40 @@
         "title": "0.3 Improvements after alpha testers", 
         "updated_at": "2014-11-29T20:32:18Z", 
         "url": "https://api.github.com/repos/gromadco/Talking-Companion-iOS/milestones/3"
+      },
+      {
+        "closed_at": null, 
+        "closed_issues": 5, 
+        "created_at": "2014-12-16T15:21:05Z", 
+        "creator": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/2575555?v=3", 
+          "events_url": "https://api.github.com/users/serejahh/events{/privacy}", 
+          "followers_url": "https://api.github.com/users/serejahh/followers", 
+          "following_url": "https://api.github.com/users/serejahh/following{/other_user}", 
+          "gists_url": "https://api.github.com/users/serejahh/gists{/gist_id}", 
+          "gravatar_id": "", 
+          "html_url": "https://github.com/serejahh", 
+          "id": 2575555, 
+          "login": "serejahh", 
+          "organizations_url": "https://api.github.com/users/serejahh/orgs", 
+          "received_events_url": "https://api.github.com/users/serejahh/received_events", 
+          "repos_url": "https://api.github.com/users/serejahh/repos", 
+          "site_admin": false, 
+          "starred_url": "https://api.github.com/users/serejahh/starred{/owner}{/repo}", 
+          "subscriptions_url": "https://api.github.com/users/serejahh/subscriptions", 
+          "type": "User", 
+          "url": "https://api.github.com/users/serejahh"
+        }, 
+        "description": "", 
+        "due_on": null, 
+        "id": 905696, 
+        "labels_url": "https://api.github.com/repos/gromadco/Talking-Companion-iOS/milestones/5/labels", 
+        "number": 5, 
+        "open_issues": 2, 
+        "state": "open", 
+        "title": "0.4 Improvements after beta testers", 
+        "updated_at": "2014-12-28T14:15:58Z", 
+        "url": "https://api.github.com/repos/gromadco/Talking-Companion-iOS/milestones/5"
       }
     ], 
     "project": "gromadco/Talking-Companion-iOS"
@@ -68,10 +102,10 @@
         "id": 692064, 
         "labels_url": "https://api.github.com/repos/dudarev/photoplanet/milestones/1/labels", 
         "number": 1, 
-        "open_issues": 3, 
+        "open_issues": 4, 
         "state": "open", 
         "title": "Deploy one site on digitalocean", 
-        "updated_at": "2014-11-20T21:05:00Z", 
+        "updated_at": "2014-12-07T22:08:07Z", 
         "url": "https://api.github.com/repos/dudarev/photoplanet/milestones/1"
       }, 
       {
@@ -154,7 +188,7 @@
     "data": [
       {
         "closed_at": null, 
-        "closed_issues": 1, 
+        "closed_issues": 3, 
         "created_at": "2014-11-09T19:52:04Z", 
         "creator": {
           "avatar_url": "https://avatars.githubusercontent.com/u/123531?v=3", 
@@ -180,12 +214,12 @@
         "id": 859266, 
         "labels_url": "https://api.github.com/repos/gromadco/change-password-links/milestones/1/labels", 
         "number": 1, 
-        "open_issues": 3, 
+        "open_issues": 2, 
         "state": "open", 
         "title": "Initial Implementation", 
-        "updated_at": "2014-11-23T09:17:46Z", 
+        "updated_at": "2014-12-23T10:08:48Z", 
         "url": "https://api.github.com/repos/gromadco/change-password-links/milestones/1"
-      } 
+      }
     ], 
     "project": "gromadco/change-password-links"
   }
